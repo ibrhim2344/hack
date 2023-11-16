@@ -1,0 +1,24 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background: black;
+}
+.box
+{
+    color: #284d28;
+    animation: animate 2.5s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%
+    {
+       color: #0f8f0d; 
+       filter:hue-rotate(0deg) ;
+    }
+   
+}
